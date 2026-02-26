@@ -1,0 +1,6 @@
+---
+- name: Configure Node.js server
+  hosts: nodejs_server
+  become: true
+  roles:
+    - app
